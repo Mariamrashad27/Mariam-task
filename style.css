@@ -1,0 +1,80 @@
+html{
+    font-family: poppins;
+    font: size 16px; ;
+    color: #333;
+}
+
+header{
+    height:100vh ;
+   /* background-image:url(../images/pexels-photo-2041540.webp) ;*/
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(../images/pexels-photo-2041540.webp);
+    background-position:center ;
+    background-size: cover;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    height: 100px;
+    margin-top: 20px;
+}
+.main-nav{
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li{
+    margin-left: 30px;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: bisque;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.main-nav li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.hero{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.btn{
+    border: solid 1px brown;  
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: brown;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: brown;
+}
+
+
+    
